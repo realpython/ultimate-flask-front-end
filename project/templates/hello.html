@@ -13,5 +13,22 @@
       <div id="content"></div>
     </div>
     <!-- scripts -->
+    <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/JSXTransformer.js') }}"></script>
+    <script type="text/jsx">
+
+      /*** @jsx React.DOM */
+
+      var helloWorld = React.createClass({
+        render: function() {
+          return (<h2>Hello, World!</h2>)
+        }
+      });
+
+      React.render(
+        React.createElement(helloWorld, null),
+        document.getElementById('content')
+      );
+    </script>
   </body>
 </html>

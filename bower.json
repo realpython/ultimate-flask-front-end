@@ -1,0 +1,20 @@
+{
+  "name": "ultimate-flask-front-end",
+  "version": "0.0.1",
+  "authors": [
+    "Michael Herman <michael@realpython.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.3",
+    "react": "~0.12.2"
+  }
+}
