@@ -1,1 +1,21 @@
 /* custom styles */
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+  max-width: 300px;
+}
+
+input {
+  text-align: center;
+  border: 5px solid;
+  padding: 13px 12px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-left: 20px;
+  text-align: left;
+}

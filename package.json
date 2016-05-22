@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/realpython/ultimate-flask-front-end#readme",
   "devDependencies": {
-    "bower": "^1.7.9"
+    "bower": "^1.7.9",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-browser": "^2.1.4",
+    "gulp-size": "^2.1.0",
+    "reactify": "^1.1.1"
   }
 }
