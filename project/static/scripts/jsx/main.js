@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+/** @jsx React.DOM */
+
+>>>>>>> master
 var DynamicSearch = React.createClass({
 
   // sets initial state
@@ -9,7 +14,11 @@ var DynamicSearch = React.createClass({
   handleChange: function(event){
     // grab value form input box
     this.setState({searchString:event.target.value});
+<<<<<<< HEAD
     console.log("scope updated!");
+=======
+    console.log("scope updated!")
+>>>>>>> master
   },
 
   render: function() {
@@ -47,7 +56,11 @@ var countries = [
   {"name": "Spain"}, {"name": "Poland"}, {"name": "Haiti"}
 ];
 
+<<<<<<< HEAD
 ReactDOM.render(
+=======
+React.render(
+>>>>>>> master
   <DynamicSearch items={ countries } />,
   document.getElementById('main')
 );

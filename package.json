@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/realpython/ultimate-flask-front-end.git"
@@ -23,5 +24,17 @@
     "gulp-browser": "^2.1.4",
     "gulp-size": "^2.1.0",
     "reactify": "^1.1.1"
+=======
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-size": "^1.2.1",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0"
+>>>>>>> master
   }
 }
