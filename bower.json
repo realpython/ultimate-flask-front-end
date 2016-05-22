@@ -1,9 +1,18 @@
 {
   "name": "ultimate-flask-front-end",
+<<<<<<< HEAD
+  "homepage": "https://github.com/realpython/ultimate-flask-front-end",
+  "authors": [
+    "Michael Herman michael@realpython.com"
+  ],
+  "description": "",
+  "main": "",
+=======
   "version": "0.0.1",
   "authors": [
     "Michael Herman <michael@realpython.com>"
   ],
+>>>>>>> master
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -13,8 +22,13 @@
     "tests"
   ],
   "dependencies": {
+<<<<<<< HEAD
+    "bootstrap": "^3.3.6",
+    "react": "^15.1.0"
+=======
     "bootstrap": "~3.3.2",
     "jquery": "~2.1.3",
     "react": "~0.12.2"
+>>>>>>> master
   }
 }
