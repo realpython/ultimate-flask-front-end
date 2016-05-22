@@ -14,17 +14,12 @@
     </div>
     <!-- scripts -->
     <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
-<<<<<<< HEAD
     <script src="{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
-=======
-    <script src="{{ url_for('static', filename='bower_components/react/JSXTransformer.js') }}"></script>
->>>>>>> master
     <script type="text/jsx">
 
       /*** @jsx React.DOM */
 
-<<<<<<< HEAD
       var realPython = React.createClass({
         render: function() {
           return (<h2>Greetings, from Real Python!</h2>);
@@ -36,18 +31,6 @@
         document.getElementById('content')
       );
 
-=======
-      var helloWorld = React.createClass({
-        render: function() {
-          return (<h2>Greetings, from Real Python!</h2>)
-        }
-      });
-
-      React.render(
-        React.createElement(helloWorld, null),
-        document.getElementById('content')
-      );
->>>>>>> master
     </script>
   </body>
 </html>

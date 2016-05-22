@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-=======
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-/** @jsx React.DOM */
-
->>>>>>> master
 var DynamicSearch = React.createClass({displayName: "DynamicSearch",
 
   // sets initial state
@@ -16,11 +10,7 @@ var DynamicSearch = React.createClass({displayName: "DynamicSearch",
   handleChange: function(event){
     // grab value form input box
     this.setState({searchString:event.target.value});
-<<<<<<< HEAD
     console.log("scope updated!");
-=======
-    console.log("scope updated!")
->>>>>>> master
   },
 
   render: function() {
@@ -36,10 +26,10 @@ var DynamicSearch = React.createClass({displayName: "DynamicSearch",
     }
 
     return (
-      React.createElement("div", null, 
-        React.createElement("input", {type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Search!"}), 
-        React.createElement("ul", null, 
-           countries.map(function(country){ return React.createElement("li", null, country.name, " ") }) 
+      React.createElement("div", null,
+        React.createElement("input", {type: "text", value: this.state.searchString, onChange: this.handleChange, placeholder: "Search!"}),
+        React.createElement("ul", null,
+           countries.map(function(country){ return React.createElement("li", null, country.name, " ") })
         )
       )
     )
@@ -58,18 +48,9 @@ var countries = [
   {"name": "Spain"}, {"name": "Poland"}, {"name": "Haiti"}
 ];
 
-<<<<<<< HEAD
 ReactDOM.render(
   React.createElement(DynamicSearch, {items:  countries }),
   document.getElementById('main')
 );
 
 },{}]},{},[1]);
-=======
-React.render(
-  React.createElement(DynamicSearch, {items: countries }),
-  document.getElementById('main')
-);
-
-},{}]},{},[1])
->>>>>>> master
